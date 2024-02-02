@@ -1,0 +1,12 @@
+*{
+    border: 10;
+    margin: 10;
+    padding: 20;
+}
+
+h1{
+    color: grey;
+}
+.pedido{
+ border: 1px color(srgb rgb(107, 80, 80) green blue);   
+}
