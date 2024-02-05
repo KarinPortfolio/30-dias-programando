@@ -7,9 +7,15 @@
 h1{
     color: grey;
 }
+
 .conta{
     visibility: hidden;
 }
+
+.endereco{
+    visibility: hidden;
+}
+
 .pedido{
  border: 1px color(srgb rgb(107, 80, 80) green blue);   
 }
