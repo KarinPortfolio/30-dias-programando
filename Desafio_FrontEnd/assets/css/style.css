@@ -1,10 +1,3 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Roboto';
-}
-
 header{
 display: flex;
 height: 13vh;  
@@ -51,38 +44,4 @@ li{
 
 h1{
     color: #4A5568;
-    ;
-}
-main{
-    gap: 20px 5px;
-}
-
-.conta {
-    display: flex;
-    flex-direction: column;
-}
-
-.info_pedido{
-    visibility: hidden;
-}
-
-.info_conta{
-    visibility: hidden;
-}
-
-.envio{
-    visibility: hidden;
-}
-
-.cartao{
-    visibility: hidden;
-}
-
-.cancelar{
-    visibility: hidden;
-}
-
-.pedido{
-    
- background-color: rgb(218, 215, 215);
 }

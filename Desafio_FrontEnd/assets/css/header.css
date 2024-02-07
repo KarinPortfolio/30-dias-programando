@@ -1,0 +1,29 @@
+main{
+    gap: 20px 5px;
+}
+
+.conta {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_pedido{
+    visibility: hidden;
+}
+
+.info_conta{
+    visibility: hidden;
+}
+
+.envio{
+    visibility: hidden;
+}
+
+.cartao{
+    visibility: hidden;
+}
+
+.cancelar{
+    visibility: hidden;
+}
+
