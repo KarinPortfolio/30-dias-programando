@@ -6,29 +6,40 @@
     <title>Codepay.</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>codepay.</h1>
+  <header>    <h1>codepay.</h1>
     <nav>
+      <section class="esquerda">
+      <span ></span>
         <ul>
           <li><a href="#">Início</a></li>
           <li><a href="#">Comprar</a></li>
           <li><a href="#">Contato</a></li>
           <li><a href="#">Ajuda</a></li>
         </ul>
-      </nav>
+      </section>
 
- <main>
-Conta <span class="material-symbols-outlined">expand_more</span>
+      <section class="direita">
+        Conta <span class="material-symbols-outlined">expand_more</span>
 <p>2 Itens <span class="material-symbols-outlined">shopping_cart</span>
 </p>
-<ul>
+</section>
+     </nav>     
+    </header>
+
+<main>
+  <hr>
+  <ul class="conta">
     <li><span class="material-symbols-outlined">person</span>Conta</a></li>
     <li><span class="material-symbols-outlined">package_2</span>Envio</a></li>
     <li><span class="material-symbols-outlined">payments</span>Pagamento</li>
 </ul>
-<div class="conta">
+</section>
+
+<section class="info_pedido">
+<div class="info_conta">
   <h2>Detalhes da conta</h2>
 Email
 <input type="text" id="fmail" name="fmail">
@@ -37,28 +48,27 @@ Senha
 Registre-se para conta
 <button class="entrar" type="button">Entrar</button>
 </div>
+
 <div class="envio">
   <h2>Detalhes do Envio</h2>
-  <div class="endereco">
-  Usar o endereço salvo 
+   Usar o endereço salvo 
   <input type="text" id="fname" name="fname" value="Carlos Rodrigo, 345">
 Cidade
 <input type="text" id="fname" name="fname" value="Guarantã">
 Rua, Bairro
 <input type="text" id="fname" name="fname" value="Manuel Ribeiro, Karoline Ferreira">
 <input type="text" id="fname" name="fname" value="123">
-
   <select name="cidade" required="required">
       <option value="sp">São Paulo</option>
       <option value="rj">Rio de Janeiro</option>
-      
   </select>
 </div>
 <div class="cartao">
 Usar o cartão salvo 
-<select name="card" required="required">
+  <select name="card" required="required">
   <option value="iuri">Iuri Souza Silva, 736327</option>
   <option value="isis">Isis Souza Silva, 234563</option>
+  </select>
 
 Nome no cartão
 <input type="text" id="fname" name="fname" value="Iuri Souza Silva">
@@ -70,12 +80,12 @@ CVC
 <input type="text" id="fname" name="fname" value="123">
 </div>
 
-</div>
-<hr>
-<div clas="cancelar">
+<div class="cancelar">
+  <hr>
 <a href="#">Cancelar Pedido</a>
 <button class="continuar" type="button">Continuar comprando</button>
 </div>
+</section>
 
 <div class="pedido">
 <h2>Resumo do pedido</h2>

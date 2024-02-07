@@ -1,21 +1,88 @@
 *{
-    border: 10;
-    margin: 10;
-    padding: 20;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header{
+display: flex;
+height: 13vh;  
+width: 100%;
+padding: 2rem;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    list-style: none;
+    align-items: center;    
+}
+
+.esquerda{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+a:link {
+    color: #4A5568;
+    text-decoration:none;
+}
+.direita{
+    display: flex;
+    width: 100%;
+    padding-left: 43rem;
+    justify-content: space-evenly;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration:none;
+}
+li{
+    list-style: none;    
+    text-decoration: none;   
+    padding-left: 1rem;
 }
 
 h1{
-    color: grey;
+    color: #4A5568;
+    ;
+}
+main{
+    gap: 20px 5px;
 }
 
-.conta{
+.conta {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_pedido{
     visibility: hidden;
 }
 
-.endereco{
+.info_conta{
+    visibility: hidden;
+}
+
+.envio{
+    visibility: hidden;
+}
+
+.cartao{
+    visibility: hidden;
+}
+
+.cancelar{
     visibility: hidden;
 }
 
 .pedido{
- border: 1px color(srgb rgb(107, 80, 80) green blue);   
+    
+ background-color: rgb(218, 215, 215);
 }
