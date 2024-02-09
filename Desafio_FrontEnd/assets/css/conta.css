@@ -1,0 +1,40 @@
+
+.info_pedido
+{
+width: 50vw;
+height: 50vh;
+}
+
+.info_conta{
+        width: 70%;
+        margin-left:20%;
+        padding-left: 0.3rem;
+        padding-top: 0.3rem;
+        color: rgb(92, 90, 90);
+        line-height: 1.8rem;          
+    }  
+
+    input{
+        width: 100%;
+        line-height: 1.6rem;
+    }
+    
+    button{
+        border: solid 1px green;
+        border-radius: 2px;
+        color: green;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+        height: 5vh;
+    }
+    
+    #com{
+        width: 52%;
+    }
+    
+    button:hover{
+        background-color: green;
+        color: white;
+        transform: scale(1.2)
+    }
+    

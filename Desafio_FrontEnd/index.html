@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/resumo.css">
     <link rel="stylesheet" href="./assets/css/style.css">    
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/conta.css">
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -46,11 +47,13 @@
 <div class="info_conta">
   <h2>Detalhes da conta</h2>
 Email
-<input type="text" id="fmail" name="fmail">
+<p><input type="text" id="fmail" name="fmail" value="iuricode@gmail.com"></p>
 Senha
-<input type="text" id="fpassword" name="fpassword">
-Registre-se para conta
-<button class="entrar" type="button">Entrar</button>
+<p><input type="text" id="fpassword" name="fpassword" value="********"></p>
+<div class="registro">
+<p>Registre-se para conta <button class="entrar" type="button">Entrar</button></p>
+<p><a href="#"><font color="red">Cancelar Pedido</font></a> <button id="com" type="button">Continuar comprando</button></p>
+</div>
 </div>
 
 <div class="envio">
@@ -83,26 +86,9 @@ Expiração
 CVC
 <input type="text" id="fname" name="fname" value="123">
 </div>
-
-<div class="cancelar">
-  <hr>
-<a href="#">Cancelar Pedido</a>
-<button class="continuar" type="button">Continuar comprando</button>
-</div>
 </section>
 
-<section class="pedido">
-  <h2>Resumo do pedido</h2>
-  <img src="./assets/imagens/unsplash_wMT0oiL5XjA.png" width="70%" alt="mouse"/>
-  <h3>Mouse Gamer Redragon</h3>
-  <div>
-      <p>R$ 15,00 <button>-</button> 2 <button>+</button></p>
-      <p><input type="text" id="fname" name="fname" value="Cupom de desconto"> <button class="aplicar" type="button">Aplicar</button></p>
-      <p>Taxa <font>R$ 5,40</font></p>
-      <p>Envio <font color="green">Gratis</font></p>
-      <p><strong>Total</strong> <strong>R$ 18,40</strong></p>    
-  </div>
-  </section>
+
 </main>   
 </body>
 </html>

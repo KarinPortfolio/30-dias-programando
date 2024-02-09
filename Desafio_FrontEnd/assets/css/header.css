@@ -8,11 +8,11 @@ main{
 }
 
 .info_pedido{
-    visibility: hidden;
+    background-color: white;
 }
 
 .info_conta{
-    visibility: hidden;
+    background-color: white;
 }
 
 .envio{
@@ -26,4 +26,6 @@ main{
 .cancelar{
     visibility: hidden;
 }
-
+.pedido{
+    visibility: hidden;
+}
