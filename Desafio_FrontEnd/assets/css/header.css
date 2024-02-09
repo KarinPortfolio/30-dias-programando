@@ -7,17 +7,6 @@ main{
     flex-direction: column;
 }
 
-.info_pedido{
-    background-color: white;
-}
-
-.info_conta{
-    background-color: white;
-}
-
-.envio{
-    visibility: hidden;
-}
 
 .cartao{
     visibility: hidden;

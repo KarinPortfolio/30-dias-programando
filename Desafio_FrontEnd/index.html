@@ -42,34 +42,44 @@
     <li><span class="material-symbols-outlined">payments</span>Pagamento</li>
 </ul>
 </section>
+<section class="info_conta">
 
-<section class="info_pedido">
-<div class="info_conta">
-  <h2>Detalhes da conta</h2>
-Email
-<p><input type="text" id="fmail" name="fmail" value="iuricode@gmail.com"></p>
-Senha
-<p><input type="text" id="fpassword" name="fpassword" value="********"></p>
-<div class="registro">
-<p>Registre-se para conta <button class="entrar" type="button">Entrar</button></p>
-<p><a href="#"><font color="red">Cancelar Pedido</font></a> <button id="com" type="button">Continuar comprando</button></p>
-</div>
-</div>
-
-<div class="envio">
+<section class="item_pedido">
   <h2>Detalhes do Envio</h2>
    Usar o endereço salvo 
-  <input type="text" id="fname" name="fname" value="Carlos Rodrigo, 345">
+</p>
+   <select class="item_pedido" name="endereco" required="required">
+    <option value="sp">Carlos Rodrigo, 345</option>
+    <option value="rj">Rodrigo José, 123</option>
+</select></p>
+  
 Cidade
 <input type="text" id="fname" name="fname" value="Guarantã">
 Rua, Bairro
 <input type="text" id="fname" name="fname" value="Manuel Ribeiro, Karoline Ferreira">
-<input type="text" id="fname" name="fname" value="123">
+
+
+<section class="dois_itens">
+Numero
+<p><input type="text" id="fname" name="fname" value="123"></p>
+Estado
+<p>
   <select name="cidade" required="required">
       <option value="sp">São Paulo</option>
       <option value="rj">Rio de Janeiro</option>
-  </select>
-</div>
+  </select></p>
+</section>
+
+</section>
+</p>
+
+<section class="registro">
+  <p>Registre-se para conta <button class="entrar" type="button">Entrar</button></p>
+  <p><a href="#"><font color="red">Cancelar Pedido</font></a> <button id="com" type="button">Continuar comprando</button></p>
+</section>
+</section>
+
+
 <div class="cartao">
 Usar o cartão salvo 
   <select name="card" required="required">

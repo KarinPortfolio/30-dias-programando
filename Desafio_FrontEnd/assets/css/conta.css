@@ -13,6 +13,19 @@ height: 50vh;
         color: rgb(92, 90, 90);
         line-height: 1.8rem;          
     }  
+select {
+       width: 100%;
+       float: left;
+       height: 1.6rem;
+       overflow: hidden;       
+       border: 1px solid #ccc;       
+}
+
+.dois_itens{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
 
     input{
         width: 100%;
