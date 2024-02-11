@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">    
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/conta.css">
+    <link rel="stylesheet" href="./assets/css/cartao.css">
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -41,61 +42,31 @@
     <li><span class="material-symbols-outlined">package_2</span>Envio</a></li>
     <li><span class="material-symbols-outlined">payments</span>Pagamento</li>
 </ul>
-</section>
+
 <section class="info_conta">
 
 <section class="item_pedido">
-  <h2>Detalhes do Envio</h2>
-   Usar o endereço salvo 
-</p>
-   <select class="item_pedido" name="endereco" required="required">
-    <option value="sp">Carlos Rodrigo, 345</option>
-    <option value="rj">Rodrigo José, 123</option>
-</select></p>
-  
-Cidade
-<input type="text" id="fname" name="fname" value="Guarantã">
-Rua, Bairro
-<input type="text" id="fname" name="fname" value="Manuel Ribeiro, Karoline Ferreira">
-
-
-<section class="dois_itens">
-Numero
-<p><input type="text" id="fname" name="fname" value="123"></p>
-Estado
-<p>
-  <select name="cidade" required="required">
-      <option value="sp">São Paulo</option>
-      <option value="rj">Rio de Janeiro</option>
-  </select></p>
-</section>
+  <section class="pagamento">
+    Usar o cartão salvo 
+    <p>
+      <select name="card" required="required">
+      <option value="iuri">Iuri Souza Silva, 736327</option>
+      <option value="isis">Isis Souza Silva, 234563</option>
+      </select>
+    </p>
+    Número do cartão
+    <p><input type="text" id="fname" name="fname" value="123-456-789/0"></p>
+    <div class="cartao">
+    Expiração 
+    <p id="cart">
+    <input type="text" id="fname" name="fname" value="03"> / <input type="text" id="fname" name="fname" value="24"></p>
+    CVC
+    <p id="cart"><input type="text" id="fname" name="fname" value="123"></p>
+    </div>
 
 </section>
 </p>
-
-<section class="registro">
-  <p>Registre-se para conta <button class="entrar" type="button">Entrar</button></p>
-  <p><a href="#"><font color="red">Cancelar Pedido</font></a> <button id="com" type="button">Continuar comprando</button></p>
 </section>
-</section>
-
-
-<div class="cartao">
-Usar o cartão salvo 
-  <select name="card" required="required">
-  <option value="iuri">Iuri Souza Silva, 736327</option>
-  <option value="isis">Isis Souza Silva, 234563</option>
-  </select>
-
-Nome no cartão
-<input type="text" id="fname" name="fname" value="Iuri Souza Silva">
-Número do cartão
-<input type="text" id="fname" name="fname" value="123-456-789/0">
-Expiração
-<input type="text" id="fname" name="fname" value="03"> / <input type="text" id="fname" name="fname" value="24">
-CVC
-<input type="text" id="fname" name="fname" value="123">
-</div>
 </section>
 
 
