@@ -24,6 +24,12 @@ a:link {
     color: #4A5568;
     text-decoration:none;
 }
+a:hover{
+    color:black;
+}
+a:visited{
+    color: green;
+}
 .direita{
     display: flex;
     width: 100%;

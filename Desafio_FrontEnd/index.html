@@ -20,10 +20,10 @@
       <section class="esquerda">
       <span ></span>
         <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Comprar</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#">Ajuda</a></li>
+          <li><a class="menu" href="index.html">Início</a></li>
+          <li><a class="menu" href="#">Comprar</a></li>
+          <li><a class="menu" href="conta.html">Contato</a></li>
+          <li><a class="menu" href="#">Ajuda</a></li>
         </ul>
       </section>
 
@@ -38,36 +38,24 @@
 <main>
   <hr>
   <ul class="conta">
-    <li><span class="material-symbols-outlined">person</span>Conta</a></li>
-    <li><span class="material-symbols-outlined">package_2</span>Envio</a></li>
-    <li><span class="material-symbols-outlined">payments</span>Pagamento</li>
+    <li><a href="conta.html"><span class="material-symbols-outlined">person</span>Conta</a></li>
+    <li><a href="envio.html"><span class="material-symbols-outlined">package_2</span>Envio</a></li>
+    <li><a href="pagamento.html"><span class="material-symbols-outlined">payments</span>Pagamento</a></li>
 </ul>
 
-<section class="info_conta">
-
-<section class="item_pedido">
-  <section class="pagamento">
-    Usar o cartão salvo 
-    <p>
-      <select name="card" required="required">
-      <option value="iuri">Iuri Souza Silva, 736327</option>
-      <option value="isis">Isis Souza Silva, 234563</option>
-      </select>
-    </p>
-    Número do cartão
-    <p><input type="text" id="fname" name="fname" value="123-456-789/0"></p>
-    <div class="cartao">
-    Expiração 
-    <p id="cart">
-    <input type="text" id="fname" name="fname" value="03"> / <input type="text" id="fname" name="fname" value="24"></p>
-    CVC
-    <p id="cart"><input type="text" id="fname" name="fname" value="123"></p>
+  <section class="info_conta">
+    <h2>Resumo do pedido</h2>
+    <img src="./assets/imagens/unsplash_wMT0oiL5XjA.png" width="70%" alt="mouse"/>
+    <h3>Mouse Gamer Redragon</h3>
+    <div>
+        <p>R$ 15,00 <button>-</button> 2 <button>+</button></p>
+        <p><input type="text" id="fname" name="fname" value="Cupom de desconto"> <button class="aplicar" type="button">Aplicar</button></p>
+        <p>Taxa <font>R$ 5,40</font></p>
+        <p>Envio <font color="green">Gratis</font></p>
+        <p><strong>Total</strong> <strong>R$ 18,40</strong></p>    
     </div>
+    </section>
 
-</section>
-</p>
-</section>
-</section>
 
 
 </main>   
